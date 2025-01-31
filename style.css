@@ -216,7 +216,7 @@ left-section .btn{
 .image {
   height: 60%;
   flex: 1;
-  background-image: url(./image/bg.jpg); /* Replace with actual image URL */
+  background-image: url(./image/driving1.jpg); /* Replace with actual image URL */
   background-size: cover;
   background-position: center;
   margin-right: 60px;
@@ -347,7 +347,7 @@ review style */
 
 /* Form Styles */
 form {
-  background: linear-gradient(135deg, #74ebd5, #9face6);
+  background: linear-gradient(135deg, #cae6e1, #d2d8f4);
   border-radius: 10px;
   padding: 40px;
   width: 100%;
@@ -384,7 +384,7 @@ form textarea:focus {
 form button {
   width: 100%;
   padding: 16px;
-  background-color: #3498db;
+  background-color:darkgray;
   color: white;
   font-size: 18px;
   border: none;
@@ -394,7 +394,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #2980b9;
+  background-color:gray;
   transform: translateY(-2px);
 }
 
@@ -1316,11 +1316,12 @@ body {
 .image-container1 {
     width: 35%;
     position: relative;
+    
 }
 
 .image-container1 img {
     width: 100%;
-    height: auto;
+    height:auto;
     border-radius: 8px;
 }
 
@@ -1540,6 +1541,26 @@ body {
 
 
 
+
+  /* Change the mobile logo size */
+.logo img {
+  width: 150px !important; /* Increased size for mobile */
+  height: auto;
+}
+
+/* Change the desktop logo size */
+@media (width > 768px) {
+  .nav__logo img {
+    max-width: 250px !important; /* Drastically increased desktop size */
+    height: auto;
+  }
+}
+
+/* If using dark/light logo versions */
+.logo-dark img {
+  width: 250px !important; /* Increased dark version size */
+  height: auto;
+}
 
 
 
